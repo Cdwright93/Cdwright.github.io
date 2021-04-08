@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: #222;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 98%;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(27, 75, 75);
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo {
+  float: left;
+}
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 20;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 40px;
+  text-align: center;
+}
+nav a {
+  color: rgb(95, 122, 77);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 50;
+}
